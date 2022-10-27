@@ -5,53 +5,85 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/FondoActividadesPricipal"
-    tools:context=".MainActivity" >
+    android:backgroundTint="#301010"
+    android:backgroundTintMode="add"
+    tools:context=".MainActivity">
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:gravity="center_horizontal">
-        <Space
-            android:layout_width="wrap_content"
-            android:layout_height="70dp"></Space>
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="280dp"
-            android:layout_height="168dp"
-            app:srcCompat="@drawable/IesComercio" />
-        <Space
-            android:layout_width="wrap_content"
-            android:layout_height="150dp"></Space>
+        android:background="@color/FondoActividadesPricipal">
 
-        <EditText
-            android:id="@+id/editTextTextPersonName"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name" />
+            android:background="@color/FondoActividadesPricipal"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
 
-        <EditText
-            android:id="@+id/editTextTextPersonName2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"></Space>
 
-        <EditText
-            android:id="@+id/editTextTextPassword"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPassword" />
+            <ImageView
+                android:id="@+id/imgComercioLogin"
+                android:layout_width="280dp"
+                android:layout_height="168dp"
+                app:srcCompat="@drawable/ic_iescomercio" />
 
-        <Button
-            android:id="@+id/button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Button" />
-    </LinearLayout>
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"></Space>
+
+            <TextView
+                android:id="@+id/lblUsuario"
+                android:layout_width="@dimen/anchoInicio"
+                android:layout_height="wrap_content"
+                android:text="@string/usuario"
+                android:textColor="@color/letraBlack"
+                android:textSize="@dimen/tamañoFuenteNormal" />
+
+            <EditText
+                android:id="@+id/tbUsuario"
+                android:layout_width="@dimen/anchoInicio"
+                android:layout_height="wrap_content"
+                android:background="@color/tbFondoIni"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="@dimen/tamañoFuenteNormal" />
+
+            <TextView
+                android:id="@+id/lblContrasena"
+                android:layout_width="@dimen/anchoInicio"
+                android:layout_height="wrap_content"
+                android:text="@string/contrasena"
+                android:textColor="@color/letraBlack"
+                android:textSize="@dimen/tamañoFuenteNormal" />
+
+            <EditText
+                android:id="@+id/tbContrasena"
+                android:layout_width="@dimen/anchoInicio"
+                android:layout_height="wrap_content"
+                android:background="@color/tbFondoIni"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:textSize="@dimen/tamañoFuenteNormal" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"></Space>
+
+            <Button
+                android:id="@+id/btnIniciarSesion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/btcolor"
+                android:text="@string/iniSesion"
+                android:textSize="@dimen/tamañoFuenteReducida" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"></Space>
+        </LinearLayout>
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

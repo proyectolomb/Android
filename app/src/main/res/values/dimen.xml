@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tamañoFuenteNormal">50sp</dimen>
+    <dimen name="tamañoFuenteReducida">25sp</dimen>
+    <dimen name="anchoInicio">364dp</dimen>
+</resources>
