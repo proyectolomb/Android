@@ -3,6 +3,7 @@ package com.example.proyectolomb;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -12,4 +13,8 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().hide();
         setContentView(R.layout.activity_main);
     }
+    public void iniciarSesion(View view){
+        setContentView(R.layout.activity_principal);
+    }
+
 }

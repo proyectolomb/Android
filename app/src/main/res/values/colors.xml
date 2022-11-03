@@ -10,5 +10,6 @@
     <color name="tbFondoIni">#FFFFFFFF</color>
     <color name="FondoActividadesPricipal">#B3E5FC</color>
     <color name="btcolor">#4097BE</color>
+    <color name="btcolorsecundario">#FDF7ED</color>
     <color name="letraBlack">#000000</color>
 </resources>
