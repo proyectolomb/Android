@@ -47,10 +47,7 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+
     <style name="Theme.ProyectoLomb.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-    <style name="Theme.ProyectoLomb.NoActionBar">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-    </style>
     <style name="Theme.ProyectoLomb.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

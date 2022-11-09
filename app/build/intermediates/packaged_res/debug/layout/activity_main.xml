@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/FondoActividadesPricipal"
+    android:backgroundTint="#301010"
+    android:backgroundTintMode="add"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/FondoActividadesPricipal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/FondoActividadesPricipal"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"></Space>
+
+            <ImageView
+                android:id="@+id/imgComercioLogin"
+                android:layout_width="280dp"
+                android:layout_height="168dp"
+                app:srcCompat="@drawable/ic_iescomercio" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"></Space>
+
+            <TextView
+                android:id="@+id/lblUsuario"
+                android:layout_width="@dimen/anchoInicio"
+                android:layout_height="wrap_content"
+                android:text="@string/usuario"
+                android:textColor="@color/letraBlack"
+                android:textSize="@dimen/tamañoFuenteNormal" />
+
+            <EditText
+                android:id="@+id/tbUsuario"
+                android:layout_width="@dimen/anchoInicio"
+                android:layout_height="wrap_content"
+                android:background="@color/tbFondoIni"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="@dimen/tamañoFuenteNormal" />
+
+            <TextView
+                android:id="@+id/lblContrasena"
+                android:layout_width="@dimen/anchoInicio"
+                android:layout_height="wrap_content"
+                android:text="@string/contrasena"
+                android:textColor="@color/letraBlack"
+                android:textSize="@dimen/tamañoFuenteNormal" />
+
+            <EditText
+                android:id="@+id/tbContrasena"
+                android:layout_width="@dimen/anchoInicio"
+                android:layout_height="wrap_content"
+                android:background="@color/tbFondoIni"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:textSize="@dimen/tamañoFuenteNormal" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"></Space>
+
+            <Button
+                android:id="@+id/btnIniciarSesion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/roundcorner"
+                android:clickable="true"
+                android:onClick="iniciarSesion"
+                android:text="@string/iniSesion"
+                android:textSize="@dimen/tamañoFuenteReducida" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"></Space>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
