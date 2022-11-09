@@ -43,7 +43,6 @@ id bthistorialimage
 id btnIniciarSesion
 id btsettings
 id drawer_layout
-id imageView
 id imgComercioLogin
 id lblContrasena
 id lblUsuario
@@ -55,7 +54,6 @@ id nav_slideshow
 id nav_view
 id tbContrasena
 id tbUsuario
-id textView
 id text_gallery
 id text_slideshow
 id toolbar
@@ -66,7 +64,6 @@ layout content_principal
 layout fragment_gallery
 layout fragment_home
 layout fragment_slideshow
-layout nav_header_principal
 menu activity_main_drawer
 menu principal_activity
 mipmap ic_launcher

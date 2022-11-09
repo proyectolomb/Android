@@ -2938,7 +2938,6 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imageView
 id imgComercioLogin
 id immediateStop
 id included
@@ -3167,7 +3166,6 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id textView
 id text_gallery
 id text_input_end_icon
 id text_input_error_icon
@@ -3413,7 +3411,6 @@ layout mtrl_picker_header_title_text
 layout mtrl_picker_header_toggle
 layout mtrl_picker_text_input_date
 layout mtrl_picker_text_input_date_range
-layout nav_header_principal
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big

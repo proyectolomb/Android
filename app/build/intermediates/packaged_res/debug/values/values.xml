@@ -16,7 +16,7 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="anchoInicio">364dp</dimen>
     <dimen name="botoncircularepagprin">80dp</dimen>
-    <dimen name="botonespaginaprincipal">190dp</dimen>
+    <dimen name="botonespaginaprincipal">175dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="nav_header_height">176dp</dimen>
     <dimen name="nav_header_vertical_spacing">8dp</dimen>
@@ -27,7 +27,7 @@
     <string name="contrasena">Contraseña</string>
     <string name="iniSesion">Iniciar sesión</string>
     <string name="menu_gallery">Gallery</string>
-    <string name="menu_home">Home</string>
+    <string name="menu_home">Inicio</string>
     <string name="menu_slideshow">Slideshow</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="nav_header_subtitle">android.studio@android.com</string>
@@ -39,7 +39,7 @@
     <style name="Theme.ProyectoLomb" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         <item name="colorPrimary">@color/btcolor</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorPrimaryVariant">@color/btcolor</item>
         <item name="colorOnPrimary">@color/white</item>
         
         <item name="colorSecondary">@color/teal_200</item>
