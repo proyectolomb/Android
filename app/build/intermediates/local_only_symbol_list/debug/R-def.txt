@@ -4,6 +4,7 @@ color FondoActividadesPricipal
 color black
 color btcolor
 color btcolorsecundario
+color fondoDrawer
 color letraBlack
 color purple_200
 color purple_500
@@ -22,6 +23,7 @@ dimen nav_header_height
 dimen nav_header_vertical_spacing
 dimen tamañoFuenteNormal
 dimen tamañoFuenteReducida
+dimen txtDrawer
 drawable book
 drawable handover
 drawable ic_iescomercio

@@ -4,6 +4,7 @@
     <color name="black">#FF000000</color>
     <color name="btcolor">#4097BE</color>
     <color name="btcolorsecundario">#FDF7ED</color>
+    <color name="fondoDrawer">#4097BE</color>
     <color name="letraBlack">#000000</color>
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
@@ -22,6 +23,7 @@
     <dimen name="nav_header_vertical_spacing">8dp</dimen>
     <dimen name="tamañoFuenteNormal">50sp</dimen>
     <dimen name="tamañoFuenteReducida">25sp</dimen>
+    <dimen name="txtDrawer">25sp</dimen>
     <string name="action_settings">Settings</string>
     <string name="app_name">ProyectoLomb</string>
     <string name="contrasena">Contraseña</string>

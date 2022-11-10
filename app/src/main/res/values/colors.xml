@@ -12,4 +12,5 @@
     <color name="btcolor">#4097BE</color>
     <color name="btcolorsecundario">#FDF7ED</color>
     <color name="letraBlack">#000000</color>
+    <color name="fondoDrawer">#4097BE</color>
 </resources>

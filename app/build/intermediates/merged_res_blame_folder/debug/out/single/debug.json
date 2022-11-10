@@ -4,12 +4,12 @@
         "source": "C:\\Users\\Vespertino\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-45:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\Vespertino\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-43:\\layout_fragment_slideshow.xml.flat",
-        "source": "C:\\Users\\Vespertino\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-45:\\layout\\fragment_slideshow.xml"
-    },
-    {
         "merged": "C:\\Users\\Vespertino\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-43:\\layout_app_bar_principal.xml.flat",
         "source": "C:\\Users\\Vespertino\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-45:\\layout\\app_bar_principal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vespertino\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-43:\\layout_fragment_slideshow.xml.flat",
+        "source": "C:\\Users\\Vespertino\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-45:\\layout\\fragment_slideshow.xml"
     },
     {
         "merged": "C:\\Users\\Vespertino\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-43:\\menu_principal_activity.xml.flat",
@@ -76,10 +76,6 @@
         "source": "C:\\Users\\Vespertino\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-45:\\layout\\fragment_gallery.xml"
     },
     {
-        "merged": "com.example.proyectolomb.app-merged_res-43:/layout_fragment_home.xml.flat",
-        "source": "com.example.proyectolomb.app-main-45:/layout/fragment_home.xml"
-    },
-    {
         "merged": "C:\\Users\\Vespertino\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-43:\\layout_list_group.xml.flat",
         "source": "C:\\Users\\Vespertino\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-45:\\layout\\list_group.xml"
     },
@@ -98,6 +94,10 @@
     {
         "merged": "C:\\Users\\Vespertino\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-43:\\drawable_handover.png.flat",
         "source": "C:\\Users\\Vespertino\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-45:\\drawable\\handover.png"
+    },
+    {
+        "merged": "com.example.proyectolomb.app-merged_res-43:/layout_activity_principal.xml.flat",
+        "source": "com.example.proyectolomb.app-main-45:/layout/activity_principal.xml"
     },
     {
         "merged": "C:\\Users\\Vespertino\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-43:\\drawable_side_nav_bar.xml.flat",

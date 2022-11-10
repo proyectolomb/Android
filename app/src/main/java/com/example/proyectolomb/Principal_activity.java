@@ -1,24 +1,19 @@
 package com.example.proyectolomb;
 
 import android.os.Bundle;
-import android.view.Gravity;
-import android.view.MenuInflater;
-import android.view.View;
 import android.view.Menu;
+import android.view.View;
 import android.widget.ExpandableListView;
-import android.widget.PopupMenu;
 
-import com.google.android.material.snackbar.Snackbar;
-import com.google.android.material.navigation.NavigationView;
-
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
-import androidx.drawerlayout.widget.DrawerLayout;
-import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.proyectolomb.databinding.ActivityPrincipalBinding;
+import com.google.android.material.snackbar.Snackbar;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -55,7 +50,7 @@ public class Principal_activity extends AppCompatActivity {
         expListView.setAdapter(listAdapterExpandable);
         int count = listAdapterExpandable.getGroupCount();
         for ( int i = 0; i < count; i++ )
-            expListView.expandGroup(i);
+            expListView.collapseGroup(i);
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
@@ -86,7 +81,7 @@ public class Principal_activity extends AppCompatActivity {
         listDataChild = new HashMap<String, List<String>>();
 
         // Agrega Encabezados.
-        listDataHeader.add("Prestamos");
+        listDataHeader.add("Préstamos");
         listDataHeader.add("Libros");
         listDataHeader.add("Lectores");
 
