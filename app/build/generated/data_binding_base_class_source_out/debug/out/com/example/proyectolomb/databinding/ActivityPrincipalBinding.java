@@ -4,13 +4,13 @@ package com.example.proyectolomb.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ExpandableListView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.proyectolomb.R;
-import com.google.android.material.navigation.NavigationView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -26,15 +26,15 @@ public final class ActivityPrincipalBinding implements ViewBinding {
   public final DrawerLayout drawerLayout;
 
   @NonNull
-  public final NavigationView navView;
+  public final ExpandableListView expandableList;
 
   private ActivityPrincipalBinding(@NonNull DrawerLayout rootView,
       @NonNull AppBarPrincipalBinding appBarPrincipal, @NonNull DrawerLayout drawerLayout,
-      @NonNull NavigationView navView) {
+      @NonNull ExpandableListView expandableList) {
     this.rootView = rootView;
     this.appBarPrincipal = appBarPrincipal;
     this.drawerLayout = drawerLayout;
-    this.navView = navView;
+    this.expandableList = expandableList;
   }
 
   @Override
@@ -73,14 +73,14 @@ public final class ActivityPrincipalBinding implements ViewBinding {
 
       DrawerLayout drawerLayout = (DrawerLayout) rootView;
 
-      id = R.id.nav_view;
-      NavigationView navView = ViewBindings.findChildViewById(rootView, id);
-      if (navView == null) {
+      id = R.id.expandable_list;
+      ExpandableListView expandableList = ViewBindings.findChildViewById(rootView, id);
+      if (expandableList == null) {
         break missingId;
       }
 
       return new ActivityPrincipalBinding((DrawerLayout) rootView, binding_appBarPrincipal,
-          drawerLayout, navView);
+          drawerLayout, expandableList);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

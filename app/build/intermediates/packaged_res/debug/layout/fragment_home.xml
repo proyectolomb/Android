@@ -54,7 +54,7 @@
                 android:background="@drawable/roundcornercolorbeis"
                 android:padding="10dp"
                 android:scaleType="fitCenter"
-                app:srcCompat="@drawable/handover" />
+                app:srcCompat="@drawable/book" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
