@@ -33,7 +33,7 @@
         </activity>
         <activity
             android:name="com.example.proyectolomb.Principal_activity"
-            android:exported="true"
+            android:exported="false"
             android:label="@string/title_activity_principal"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.ProyectoLomb.NoActionBar" >

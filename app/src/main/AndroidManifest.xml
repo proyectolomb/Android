@@ -27,7 +27,7 @@
         </activity>
         <activity
             android:name=".Principal_activity"
-            android:exported="true"
+            android:exported="false"
             android:label="@string/title_activity_principal"
             android:theme="@style/Theme.ProyectoLomb.NoActionBar"
             android:screenOrientation="portrait"

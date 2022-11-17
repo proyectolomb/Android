@@ -1866,6 +1866,7 @@ color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
+color notification_material_background_media_default_color
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -2515,6 +2516,10 @@ dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
 dimen sliding_pane_detail_pane_width
+dimen subtitle_corner_radius
+dimen subtitle_outline_width
+dimen subtitle_shadow_offset
+dimen subtitle_shadow_radius
 dimen tamañoFuenteNormal
 dimen tamañoFuenteReducida
 dimen tooltip_corner_radius
@@ -2761,6 +2766,7 @@ id accessibility_custom_action_6
 id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
+id action0
 id actionDown
 id actionDownUp
 id actionUp
@@ -2803,6 +2809,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id autor
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -2822,7 +2829,9 @@ id btsettings
 id buttonPanel
 id cache_measures
 id callMeasure
+id cancel_action
 id cancel_button
+id card
 id carryVelocity
 id center
 id centerCrop
@@ -2897,6 +2906,7 @@ id elastic
 id embed
 id end
 id endToStart
+id end_padder
 id enterAlways
 id enterAlwaysCollapsed
 id exitUntilCollapsed
@@ -2941,6 +2951,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageViewExpand
 id imgComercioLogin
 id immediateStop
 id included
@@ -2964,6 +2975,8 @@ id legacy
 id line1
 id line3
 id linear
+id linearLayoutCardContent
+id linearLayoutDetails
 id listMode
 id list_item
 id locale
@@ -2991,6 +3004,7 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id matrix
+id media_actions
 id message
 id middle
 id mini
@@ -3031,6 +3045,7 @@ id nav_gallery
 id nav_home
 id nav_host_fragment_container
 id nav_host_fragment_content_principal
+id nav_listar_libros
 id nav_slideshow
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
@@ -3076,6 +3091,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id recyclerView
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3142,6 +3158,7 @@ id startToEnd
 id startVertical
 id staticLayout
 id staticPostLayout
+id status_bar_latest_event_content
 id stop
 id stretch
 id submenuarrow
@@ -3170,6 +3187,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textViewInfo
 id text_gallery
 id text_input_end_icon
 id text_input_error_icon
@@ -3185,8 +3203,10 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
+id titulo
 id toggle
 id toolbar
+id toolbarCard
 id top
 id topPanel
 id touch_outside
@@ -3347,6 +3367,7 @@ layout abc_tooltip
 layout activity_main
 layout activity_principal
 layout app_bar_principal
+layout card_view_items
 layout content_principal
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -3366,6 +3387,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_gallery
 layout fragment_home
+layout fragment_listar_libros
 layout fragment_slideshow
 layout list_group
 layout list_item
@@ -3419,8 +3441,17 @@ layout mtrl_picker_text_input_date
 layout mtrl_picker_text_input_date_range
 layout notification_action
 layout notification_action_tombstone
+layout notification_media_action
+layout notification_media_cancel_action
+layout notification_template_big_media
+layout notification_template_big_media_custom
+layout notification_template_big_media_narrow
+layout notification_template_big_media_narrow_custom
 layout notification_template_custom_big
 layout notification_template_icon_group
+layout notification_template_lines_media
+layout notification_template_media
+layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout select_dialog_item_material
@@ -3431,6 +3462,8 @@ menu activity_main_drawer
 menu principal_activity
 mipmap ic_launcher
 mipmap ic_launcher_round
+mipmap less
+mipmap more
 navigation mobile_navigation
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
@@ -3597,6 +3630,9 @@ style Animation_AppCompat_DropDownUp
 style Animation_AppCompat_Tooltip
 style Animation_Design_BottomSheetDialog
 style Animation_MaterialComponents_BottomSheetDialog
+style AppTheme
+style AppTheme_CardView
+style AppTheme_ToolbarMain
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light
 style Base_Animation_AppCompat_Dialog
@@ -4008,9 +4044,14 @@ style TextAppearance_AppCompat_Widget_Switch
 style TextAppearance_AppCompat_Widget_TextView_SpinnerItem
 style TextAppearance_Compat_Notification
 style TextAppearance_Compat_Notification_Info
+style TextAppearance_Compat_Notification_Info_Media
 style TextAppearance_Compat_Notification_Line2
+style TextAppearance_Compat_Notification_Line2_Media
+style TextAppearance_Compat_Notification_Media
 style TextAppearance_Compat_Notification_Time
+style TextAppearance_Compat_Notification_Time_Media
 style TextAppearance_Compat_Notification_Title
+style TextAppearance_Compat_Notification_Title_Media
 style TextAppearance_Design_CollapsingToolbar_Expanded
 style TextAppearance_Design_Counter
 style TextAppearance_Design_Counter_Overflow
@@ -4287,6 +4328,7 @@ style ThemeOverlay_MaterialComponents_TimePicker_Display_TextInputEditText
 style ThemeOverlay_MaterialComponents_Toolbar_Popup_Primary
 style ThemeOverlay_MaterialComponents_Toolbar_Primary
 style ThemeOverlay_MaterialComponents_Toolbar_Surface
+style ToolbarCard
 style Widget_AppCompat_ActionBar
 style Widget_AppCompat_ActionBar_Solid
 style Widget_AppCompat_ActionBar_TabBar

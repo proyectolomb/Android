@@ -57,8 +57,8 @@
 34-->G:\AndroideProyecto\lombproyecto\proyectolombMovil\app\src\main\AndroidManifest.xml:28:9-35:20
 35            android:name="com.example.proyectolomb.Principal_activity"
 35-->G:\AndroideProyecto\lombproyecto\proyectolombMovil\app\src\main\AndroidManifest.xml:29:13-47
-36            android:exported="true"
-36-->G:\AndroideProyecto\lombproyecto\proyectolombMovil\app\src\main\AndroidManifest.xml:30:13-36
+36            android:exported="false"
+36-->G:\AndroideProyecto\lombproyecto\proyectolombMovil\app\src\main\AndroidManifest.xml:30:13-37
 37            android:label="@string/title_activity_principal"
 37-->G:\AndroideProyecto\lombproyecto\proyectolombMovil\app\src\main\AndroidManifest.xml:31:13-61
 38            android:screenOrientation="portrait"

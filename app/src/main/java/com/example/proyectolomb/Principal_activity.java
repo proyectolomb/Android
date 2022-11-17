@@ -3,7 +3,11 @@ package com.example.proyectolomb;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
+import android.view.ViewGroup;
+import android.view.animation.Animation;
+import android.view.animation.RotateAnimation;
 import android.widget.ExpandableListView;
+import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.drawerlayout.widget.DrawerLayout;
@@ -26,12 +30,20 @@ public class Principal_activity extends AppCompatActivity {
     ExpandableListAdapter listAdapterExpandable;
     List<String> listDataHeader;
     HashMap<String, List<String>> listDataChild;
+    private ViewGroup linearLayoutDetails;
+    private ImageView imageViewExpand;
+
+    private static final int DURATION = 250;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         binding = ActivityPrincipalBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+        // Copiar despues
+        linearLayoutDetails = findViewById(R.id.linearLayoutDetails);
+        imageViewExpand = findViewById(R.id.imageViewExpand);
 
       setSupportActionBar(binding.appBarPrincipal.toolbar);
         binding.appBarPrincipal.btsettings.setOnClickListener(new View.OnClickListener() {
@@ -54,12 +66,12 @@ public class Principal_activity extends AppCompatActivity {
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow)
+                R.id.nav_home, R.id.nav_listar_libros, R.id.nav_slideshow)
                 .setOpenableLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_principal);
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
-        //NavigationUI.setupWithNavController(expListView, navController);
+        //NavigationUI.setupWithNavController(listAdapterExpandable, navController);
 
     }
 
@@ -114,5 +126,25 @@ public class Principal_activity extends AppCompatActivity {
         listDataChild.put(listDataHeader.get(0), prestamos);
         listDataChild.put(listDataHeader.get(1), libros);
         listDataChild.put(listDataHeader.get(2), lectores);
+    }
+    //Copiar despues
+    public void toggleDetails(View view) {
+        if (linearLayoutDetails.getVisibility() == View.GONE) {
+            ExpandAndCollapseViewUtil.expand(linearLayoutDetails, DURATION);
+            imageViewExpand.setImageResource(R.mipmap.more);
+            rotate(-180.0f);
+        } else {
+            ExpandAndCollapseViewUtil.collapse(linearLayoutDetails, DURATION);
+            imageViewExpand.setImageResource(R.mipmap.less);
+            rotate(180.0f);
+        }
+    }
+
+    private void rotate(float angle) {
+        Animation animation = new RotateAnimation(0.0f, angle, Animation.RELATIVE_TO_SELF, 0.5f,
+                Animation.RELATIVE_TO_SELF, 0.5f);
+        animation.setFillAfter(true);
+        animation.setDuration(DURATION);
+        imageViewExpand.startAnimation(animation);
     }
 }

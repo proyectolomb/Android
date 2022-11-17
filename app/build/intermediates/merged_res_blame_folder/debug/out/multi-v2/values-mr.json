@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.proyectolomb.app-mergeDebugResources-41:/values-mr/values-mr.xml",
+            "outputFile": "com.example.proyectolomb.app-mergeDebugResources-42:/values-mr/values-mr.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Vespertino\\.gradle\\caches\\transforms-3\\5d666d306352f7fdca8df50525096bc2\\transformed\\appcompat-1.5.1\\res\\values-mr\\values-mr.xml",

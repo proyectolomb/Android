@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.listar_libros.listar_libros">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <com.google.android.material.appbar.MaterialToolbar android:id="@+id/toolbar"
+            style="@style/AppTheme.ToolbarMain"
+            xmlns:android="http://schemas.android.com/apk/res/android" />
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:scrollbars="none">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card"
+                style="@style/AppTheme.CardView">
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutCardContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.appbar.MaterialToolbar
+                        android:id="@+id/toolbarCard"
+                        style="@style/ToolbarCard">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/titulo"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Titulo"
+                                android:textSize="25sp" />
+                            <TextView
+                                android:id="@+id/autor"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Autor"
+                                android:textSize="15sp" />
+
+                        </LinearLayout>
+
+                    </com.google.android.material.appbar.MaterialToolbar>
+                    android:layout_width=""
+                    android:layout_height=""
+                    />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:text="Ver más"
+                            android:textAppearance="?attr/textAppearanceHeadline6" />
+
+                        <ImageButton
+                            android:id="@+id/imageViewExpand"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:contentDescription="Ver más"
+                            android:background="?attr/selectableItemBackground"
+                            android:src="@mipmap/more"
+                            android:onClick="toggleDetails"
+                            />
+                        <!-- android:tint="?attr/colorOnSurface"-->
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/linearLayoutDetails"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="8dp"
+                        android:paddingBottom="16dp"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/textViewInfo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Insertar cosas"
+                            android:textAppearance="?attr/textAppearanceSubtitle1"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </ScrollView>
+    </LinearLayout>
+
+</FrameLayout>
