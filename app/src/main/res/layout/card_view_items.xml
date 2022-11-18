@@ -1,114 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".ui.listar_libros.listar_libros">
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    card_view:cardCornerRadius="3dp"
+    card_view:cardElevation="4dp"
+    card_view:cardUseCompatPadding="true">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        tools:context=".MainActivity">
+        android:orientation="horizontal">
 
-        <com.google.android.material.appbar.MaterialToolbar android:id="@+id/toolbar"
-            style="@style/AppTheme.ToolbarMain"
-            xmlns:android="http://schemas.android.com/apk/res/android" />
-
-        <ScrollView
-            android:id="@+id/scrollView"
-            android:layout_width="match_parent"
+        <TextView
+            android:id="@+id/contenidoDispositivos"
+            android:layout_width="55sp"
             android:layout_height="wrap_content"
-            android:padding="16dp"
-            android:scrollbars="none">
+            android:layout_marginStart="5sp"
+            android:layout_weight="1"
+            android:text="TextView"
+            android:textAlignment="center" />
 
-            <com.google.android.material.card.MaterialCardView
-                android:id="@+id/card"
-                style="@style/AppTheme.CardView">
+        <TextView
+            android:id="@+id/contenidoEstado"
+            android:layout_width="55sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView"
+            android:textAlignment="center" />
 
-                <LinearLayout
-                    android:id="@+id/linearLayoutCardContent"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
+        <TextView
+            android:id="@+id/contenidoLocalizacion"
+            android:layout_width="55sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView"
+            android:textAlignment="center" />
 
-                    <com.google.android.material.appbar.MaterialToolbar
-                        android:id="@+id/toolbarCard"
-                        style="@style/ToolbarCard">
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:orientation="vertical">
-                            <TextView
-                                android:id="@+id/titulo"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="Titulo"
-                                android:textSize="25sp" />
-                            <TextView
-                                android:id="@+id/autor"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="Autor"
-                                android:textSize="15sp" />
+        <Button
+            android:id="@+id/contenidoBoton"
+            android:layout_width="55sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/fondoDrawer"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:text="Button"
+            android:textSize="10sp" />
 
-                        </LinearLayout>
+        <Button
+            android:id="@+id/contenidoBoton2"
+            android:layout_width="55sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/fondoDrawer"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:text="Button"
+            android:textSize="10sp" />
 
-                    </com.google.android.material.appbar.MaterialToolbar>
-                    android:layout_width=""
-                    android:layout_height=""
-                    />
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:padding="8dp">
-
-                        <TextView
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center_vertical"
-                            android:layout_weight="1"
-                            android:gravity="center_vertical"
-                            android:text="Ver más"
-                            android:textAppearance="?attr/textAppearanceHeadline6" />
-
-                        <ImageButton
-                            android:id="@+id/imageViewExpand"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:contentDescription="Ver más"
-                            android:background="?attr/selectableItemBackground"
-                            android:src="@mipmap/more"
-                            android:onClick="toggleDetails"
-                            />
-                        <!-- android:tint="?attr/colorOnSurface"-->
-                    </LinearLayout>
-
-
-                    <LinearLayout
-                        android:id="@+id/linearLayoutDetails"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical"
-                        android:paddingLeft="8dp"
-                        android:paddingRight="8dp"
-                        android:paddingBottom="16dp"
-                        android:visibility="gone">
-
-                        <TextView
-                            android:id="@+id/textViewInfo"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Insertar cosas"
-                            android:textAppearance="?attr/textAppearanceSubtitle1"
-                            />
-                    </LinearLayout>
-                </LinearLayout>
-
-            </com.google.android.material.card.MaterialCardView>
-
-        </ScrollView>
     </LinearLayout>
-
-</FrameLayout>
+</androidx.cardview.widget.CardView>

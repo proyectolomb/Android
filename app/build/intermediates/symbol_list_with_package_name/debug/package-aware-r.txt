@@ -2809,7 +2809,6 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
-id autor
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -2831,7 +2830,6 @@ id cache_measures
 id callMeasure
 id cancel_action
 id cancel_button
-id card
 id carryVelocity
 id center
 id centerCrop
@@ -2855,6 +2853,11 @@ id compress
 id confirm_button
 id constraint
 id container
+id contenidoBoton
+id contenidoBoton2
+id contenidoDispositivos
+id contenidoEstado
+id contenidoLocalizacion
 id content
 id contentPanel
 id contiguous
@@ -2951,7 +2954,6 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imageViewExpand
 id imgComercioLogin
 id immediateStop
 id included
@@ -2975,8 +2977,6 @@ id legacy
 id line1
 id line3
 id linear
-id linearLayoutCardContent
-id linearLayoutDetails
 id listMode
 id list_item
 id locale
@@ -3187,7 +3187,6 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id textViewInfo
 id text_gallery
 id text_input_end_icon
 id text_input_error_icon
@@ -3203,10 +3202,8 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
-id titulo
 id toggle
 id toolbar
-id toolbarCard
 id top
 id topPanel
 id touch_outside

@@ -42,8 +42,8 @@ public class Principal_activity extends AppCompatActivity {
         binding = ActivityPrincipalBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
         // Copiar despues
-        linearLayoutDetails = findViewById(R.id.linearLayoutDetails);
-        imageViewExpand = findViewById(R.id.imageViewExpand);
+        //linearLayoutDetails = findViewById(R.id.linearLayoutDetails);
+        //imageViewExpand = findViewById(R.id.imageViewExpand);
 
       setSupportActionBar(binding.appBarPrincipal.toolbar);
         binding.appBarPrincipal.btsettings.setOnClickListener(new View.OnClickListener() {

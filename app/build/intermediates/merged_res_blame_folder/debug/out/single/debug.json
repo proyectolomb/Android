@@ -16,12 +16,12 @@
         "source": "C:\\Users\\Vespertino\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\list_item.xml"
     },
     {
-        "merged": "C:\\Users\\Vespertino\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\layout_card_view_items.xml.flat",
-        "source": "C:\\Users\\Vespertino\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\card_view_items.xml"
-    },
-    {
         "merged": "C:\\Users\\Vespertino\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\drawable-v24_returnboooko.png.flat",
         "source": "C:\\Users\\Vespertino\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\drawable-v24\\returnboooko.png"
+    },
+    {
+        "merged": "C:\\Users\\Vespertino\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\layout_card_view_items.xml.flat",
+        "source": "C:\\Users\\Vespertino\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\card_view_items.xml"
     },
     {
         "merged": "C:\\Users\\Vespertino\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\xml_data_extraction_rules.xml.flat",

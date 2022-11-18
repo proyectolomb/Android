@@ -1,11 +1,12 @@
 package com.example.proyectolomb.classes.entities;
 
 import java.time.LocalDate;
+import java.util.Date;
 
 public class Libro {
     private String ISBN;
     private String nombre;
-    private LocalDate fechaPublicacion;
+    private Date fechaPublicacion;
     //private Idioma idioma;
     //private Editorial editorial;
 
@@ -25,15 +26,15 @@ public class Libro {
         this.nombre = nombre;
     }
 
-    public LocalDate getFechaPublicacion() {
+    public Date getFechaPublicacion() {
         return fechaPublicacion;
     }
 
-    public void setFechaPublicacion(LocalDate fechaPublicacion) {
+    public void setFechaPublicacion(Date fechaPublicacion) {
         this.fechaPublicacion = fechaPublicacion;
     }
 
-    public Libro(String ISBN, String nombre, LocalDate fechaPublicacion) {
+    public Libro(String ISBN, String nombre, Date fechaPublicacion) {
         this.ISBN = ISBN;
         this.nombre = nombre;
         this.fechaPublicacion = fechaPublicacion;
