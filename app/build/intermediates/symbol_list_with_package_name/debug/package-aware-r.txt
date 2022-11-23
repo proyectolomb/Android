@@ -2830,6 +2830,7 @@ id cache_measures
 id callMeasure
 id cancel_action
 id cancel_button
+id card
 id carryVelocity
 id center
 id centerCrop
@@ -2855,9 +2856,8 @@ id constraint
 id container
 id contenidoBoton
 id contenidoBoton2
-id contenidoDispositivos
-id contenidoEstado
-id contenidoLocalizacion
+id contenidoFechaPubli
+id contenidoISBN
 id content
 id contentPanel
 id contiguous
@@ -2954,6 +2954,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageViewExpand
 id imgComercioLogin
 id immediateStop
 id included
@@ -2977,6 +2978,8 @@ id legacy
 id line1
 id line3
 id linear
+id linearLayoutCardContent
+id linearLayoutDetails
 id listMode
 id list_item
 id locale
@@ -3085,6 +3088,7 @@ id percent
 id pin
 id position
 id postLayout
+id presentacionTitulo
 id pressed
 id progress_circular
 id progress_horizontal
@@ -3364,7 +3368,7 @@ layout abc_tooltip
 layout activity_main
 layout activity_principal
 layout app_bar_principal
-layout card_view_items
+layout card_view_libro
 layout content_principal
 layout custom_dialog
 layout design_bottom_navigation_item

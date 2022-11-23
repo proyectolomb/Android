@@ -1,6 +1,7 @@
 package com.example.proyectolomb;
 
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
@@ -17,6 +18,7 @@ import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
 import com.example.proyectolomb.databinding.ActivityPrincipalBinding;
+import com.example.proyectolomb.ui.listar_libros.adapterLibrosView;
 import com.google.android.material.snackbar.Snackbar;
 
 import java.util.ArrayList;
@@ -41,9 +43,7 @@ public class Principal_activity extends AppCompatActivity {
 
         binding = ActivityPrincipalBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-        // Copiar despues
-        //linearLayoutDetails = findViewById(R.id.linearLayoutDetails);
-        //imageViewExpand = findViewById(R.id.imageViewExpand);
+
 
       setSupportActionBar(binding.appBarPrincipal.toolbar);
         binding.appBarPrincipal.btsettings.setOnClickListener(new View.OnClickListener() {
@@ -54,9 +54,10 @@ public class Principal_activity extends AppCompatActivity {
             }
 
         });
-
+        // Cards
         DrawerLayout drawer = binding.drawerLayout;
         ExpandableListView expListView = binding.expandableList;
+        // Menu del navigation
         prepareListData();
         listAdapterExpandable = new ExpandableListAdapter(this, listDataHeader, listDataChild);
         expListView.setAdapter(listAdapterExpandable);
@@ -65,13 +66,24 @@ public class Principal_activity extends AppCompatActivity {
             expListView.collapseGroup(i);
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
-        mAppBarConfiguration = new AppBarConfiguration.Builder(
+        expListView.setOnGroupClickListener(new ExpandableListView.OnGroupClickListener() {
+            @Override
+            public boolean onGroupClick(ExpandableListView expandableListView, View view, int groupPosition, long childPosition) {
+                String selectedItem=listAdapterExpandable.getChild(groupPosition,(int) childPosition).toString();
+
+                getSupportActionBar().setTitle(selectedItem);
+                return false;
+            }
+        });
+
+        /*mAppBarConfiguration = new AppBarConfiguration.Builder(
                 R.id.nav_home, R.id.nav_listar_libros, R.id.nav_slideshow)
                 .setOpenableLayout(drawer)
-                .build();
+                .build();*/
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_principal);
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         //NavigationUI.setupWithNavController(listAdapterExpandable, navController);
+
 
     }
 
@@ -127,8 +139,11 @@ public class Principal_activity extends AppCompatActivity {
         listDataChild.put(listDataHeader.get(1), libros);
         listDataChild.put(listDataHeader.get(2), lectores);
     }
-    //Copiar despues
+
+    //Cards
     public void toggleDetails(View view) {
+        linearLayoutDetails = findViewById(R.id.linearLayoutDetails);
+        imageViewExpand = findViewById(R.id.imageViewExpand);
         if (linearLayoutDetails.getVisibility() == View.GONE) {
             ExpandAndCollapseViewUtil.expand(linearLayoutDetails, DURATION);
             imageViewExpand.setImageResource(R.mipmap.more);
@@ -146,5 +161,8 @@ public class Principal_activity extends AppCompatActivity {
         animation.setFillAfter(true);
         animation.setDuration(DURATION);
         imageViewExpand.startAnimation(animation);
+    }
+    private void inflar(String s) {
+        View v = getLayoutInflater().inflate(R.layout.fragment_listar_libros, getContentScene().getSceneRoot(), false);
     }
 }
