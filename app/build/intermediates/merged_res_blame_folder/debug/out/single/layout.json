@@ -1,94 +1,78 @@
 [
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-mergeDebugResources-43:\\layout\\activity_principal.xml",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\activity_principal.xml"
+        "merged": "com.example.proyectolomb.app-mergeDebugResources-43:/layout/fragment_nuevo_autor_enitdad.xml",
+        "source": "com.example.proyectolomb.app-main-46:/layout/fragment_nuevo_autor_enitdad.xml"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-mergeDebugResources-43:\\layout\\fragment_gallery.xml",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\fragment_gallery.xml"
+        "merged": "com.example.proyectolomb.app-mergeDebugResources-43:/layout/list_group.xml",
+        "source": "com.example.proyectolomb.app-main-46:/layout/list_group.xml"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-mergeDebugResources-43:\\layout\\fragment_nuevo_autor_persona.xml",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\fragment_nuevo_autor_persona.xml"
+        "merged": "com.example.proyectolomb.app-mergeDebugResources-43:/layout/card_view_libro.xml",
+        "source": "com.example.proyectolomb.app-main-46:/layout/card_view_libro.xml"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-mergeDebugResources-43:\\layout\\fragment_nuevo_autor_enitdad.xml",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\fragment_nuevo_autor_enitdad.xml"
+        "merged": "com.example.proyectolomb.app-mergeDebugResources-43:/layout/fragment_nuevo_autor_persona.xml",
+        "source": "com.example.proyectolomb.app-main-46:/layout/fragment_nuevo_autor_persona.xml"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-mergeDebugResources-43:\\layout\\fragment_vacio.xml",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\fragment_vacio.xml"
+        "merged": "com.example.proyectolomb.app-mergeDebugResources-43:/layout/app_bar_principal.xml",
+        "source": "com.example.proyectolomb.app-main-46:/layout/app_bar_principal.xml"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-mergeDebugResources-43:\\layout\\list_item.xml",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\list_item.xml"
+        "merged": "com.example.proyectolomb.app-mergeDebugResources-43:/layout/fragment_nuevo_lector_alumno.xml",
+        "source": "com.example.proyectolomb.app-main-46:/layout/fragment_nuevo_lector_alumno.xml"
+    },
+    {
+        "merged": "com.example.proyectolomb.app-mergeDebugResources-43:/layout/content_principal.xml",
+        "source": "com.example.proyectolomb.app-main-46:/layout/content_principal.xml"
+    },
+    {
+        "merged": "com.example.proyectolomb.app-mergeDebugResources-43:/layout/fragment_listar_libros.xml",
+        "source": "com.example.proyectolomb.app-main-46:/layout/fragment_listar_libros.xml"
+    },
+    {
+        "merged": "com.example.proyectolomb.app-mergeDebugResources-43:/layout/activity_principal.xml",
+        "source": "com.example.proyectolomb.app-main-46:/layout/activity_principal.xml"
+    },
+    {
+        "merged": "com.example.proyectolomb.app-mergeDebugResources-43:/layout/fragment_slideshow.xml",
+        "source": "com.example.proyectolomb.app-main-46:/layout/fragment_slideshow.xml"
     },
     {
         "merged": "com.example.proyectolomb.app-mergeDebugResources-43:/layout/fragment_home.xml",
         "source": "com.example.proyectolomb.app-main-46:/layout/fragment_home.xml"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-mergeDebugResources-43:\\layout\\fragment_nuevo_lector_profesor.xml",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\fragment_nuevo_lector_profesor.xml"
+        "merged": "com.example.proyectolomb.app-mergeDebugResources-43:/layout/fragment_gallery.xml",
+        "source": "com.example.proyectolomb.app-main-46:/layout/fragment_gallery.xml"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-mergeDebugResources-43:\\layout\\fragment_nuevo_encargdo.xml",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\fragment_nuevo_encargdo.xml"
+        "merged": "com.example.proyectolomb.app-mergeDebugResources-43:/layout/activity_main.xml",
+        "source": "com.example.proyectolomb.app-main-46:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-mergeDebugResources-43:\\layout\\card_view_libro.xml",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\card_view_libro.xml"
-    },
-    {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-mergeDebugResources-43:\\layout\\fragment_nuevo_lector_alumno.xml",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\fragment_nuevo_lector_alumno.xml"
-    },
-    {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-mergeDebugResources-43:\\layout\\fragment_nuevo_lector.xml",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\fragment_nuevo_lector.xml"
-    },
-    {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-mergeDebugResources-43:\\layout\\content_principal.xml",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\content_principal.xml"
-    },
-    {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-mergeDebugResources-43:\\layout\\fragment_modificar_lector.xml",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\fragment_modificar_lector.xml"
+        "merged": "com.example.proyectolomb.app-mergeDebugResources-43:/layout/fragment_nuevo_encargado.xml",
+        "source": "com.example.proyectolomb.app-main-46:/layout/fragment_nuevo_encargado.xml"
     },
     {
         "merged": "com.example.proyectolomb.app-mergeDebugResources-43:/layout/fragment_inicio.xml",
         "source": "com.example.proyectolomb.app-main-46:/layout/fragment_inicio.xml"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-mergeDebugResources-43:\\layout\\fragment_crear_libro.xml",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\fragment_crear_libro.xml"
+        "merged": "com.example.proyectolomb.app-mergeDebugResources-43:/layout/fragment_crear_libro.xml",
+        "source": "com.example.proyectolomb.app-main-46:/layout/fragment_crear_libro.xml"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-mergeDebugResources-43:\\layout\\fragment_home.xml",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\fragment_home.xml"
+        "merged": "com.example.proyectolomb.app-mergeDebugResources-43:/layout/fragment_nuevo_lector_profesor.xml",
+        "source": "com.example.proyectolomb.app-main-46:/layout/fragment_nuevo_lector_profesor.xml"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-mergeDebugResources-43:\\layout\\app_bar_principal.xml",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\app_bar_principal.xml"
+        "merged": "com.example.proyectolomb.app-mergeDebugResources-43:/layout/list_item.xml",
+        "source": "com.example.proyectolomb.app-main-46:/layout/list_item.xml"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-mergeDebugResources-43:\\layout\\list_group.xml",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\list_group.xml"
-    },
-    {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-mergeDebugResources-43:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-mergeDebugResources-43:\\layout\\fragment_listar_libros.xml",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\fragment_listar_libros.xml"
-    },
-    {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-mergeDebugResources-43:\\layout\\fragment_nuevo_encargado.xml",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\fragment_nuevo_encargado.xml"
-    },
-    {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-mergeDebugResources-43:\\layout\\fragment_slideshow.xml",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\fragment_slideshow.xml"
+        "merged": "com.example.proyectolomb.app-mergeDebugResources-43:/layout/fragment_modificar_lector.xml",
+        "source": "com.example.proyectolomb.app-main-46:/layout/fragment_modificar_lector.xml"
     }
 ]

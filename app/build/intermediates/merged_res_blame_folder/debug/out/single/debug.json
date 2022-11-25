@@ -1,226 +1,210 @@
 [
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\drawable-v24_pencil.png.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\drawable-v24\\pencil.png"
+        "merged": "com.example.proyectolomb.app-merged_res-44:/drawable_ic_menu_gallery.xml.flat",
+        "source": "com.example.proyectolomb.app-main-46:/drawable/ic_menu_gallery.xml"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\layout_fragment_slideshow.xml.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\fragment_slideshow.xml"
+        "merged": "com.example.proyectolomb.app-merged_res-44:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.proyectolomb.app-main-46:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\drawable_book.png.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\drawable\\book.png"
+        "merged": "com.example.proyectolomb.app-merged_res-44:/xml_backup_rules.xml.flat",
+        "source": "com.example.proyectolomb.app-main-46:/xml/backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\layout_fragment_nuevo_lector_profesor.xml.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\fragment_nuevo_lector_profesor.xml"
+        "merged": "com.example.proyectolomb.app-merged_res-44:/drawable-v24_pencil.png.flat",
+        "source": "com.example.proyectolomb.app-main-46:/drawable-v24/pencil.png"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "com.example.proyectolomb.app-merged_res-44:/layout_activity_main.xml.flat",
+        "source": "com.example.proyectolomb.app-main-46:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\layout_fragment_nuevo_encargdo.xml.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\fragment_nuevo_encargdo.xml"
+        "merged": "com.example.proyectolomb.app-merged_res-44:/mipmap-hdpi_more.png.flat",
+        "source": "com.example.proyectolomb.app-main-46:/mipmap-hdpi/more.png"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\drawable\\ic_launcher_background.xml"
+        "merged": "com.example.proyectolomb.app-merged_res-44:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.proyectolomb.app-pngs-39:/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\layout_fragment_nuevo_autor_persona.xml.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\fragment_nuevo_autor_persona.xml"
+        "merged": "com.example.proyectolomb.app-merged_res-44:/layout_fragment_nuevo_lector_alumno.xml.flat",
+        "source": "com.example.proyectolomb.app-main-46:/layout/fragment_nuevo_lector_alumno.xml"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.example.proyectolomb.app-merged_res-44:/layout_fragment_modificar_lector.xml.flat",
+        "source": "com.example.proyectolomb.app-main-46:/layout/fragment_modificar_lector.xml"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\drawable-v24_returnboooko.png.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\drawable-v24\\returnboooko.png"
+        "merged": "com.example.proyectolomb.app-merged_res-44:/drawable_book.png.flat",
+        "source": "com.example.proyectolomb.app-main-46:/drawable/book.png"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\layout_content_principal.xml.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\content_principal.xml"
+        "merged": "com.example.proyectolomb.app-merged_res-44:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.proyectolomb.app-main-46:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\layout_fragment_nuevo_autor_enitdad.xml.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\fragment_nuevo_autor_enitdad.xml"
+        "merged": "com.example.proyectolomb.app-merged_res-44:/layout_fragment_nuevo_lector_profesor.xml.flat",
+        "source": "com.example.proyectolomb.app-main-46:/layout/fragment_nuevo_lector_profesor.xml"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "com.example.proyectolomb.app-merged_res-44:/mipmap-hdpi_less.png.flat",
+        "source": "com.example.proyectolomb.app-main-46:/mipmap-hdpi/less.png"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\layout_fragment_modificar_lector.xml.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\fragment_modificar_lector.xml"
+        "merged": "com.example.proyectolomb.app-merged_res-44:/layout_fragment_crear_libro.xml.flat",
+        "source": "com.example.proyectolomb.app-main-46:/layout/fragment_crear_libro.xml"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\drawable_ic_menu_slideshow.xml.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\drawable\\ic_menu_slideshow.xml"
+        "merged": "com.example.proyectolomb.app-merged_res-44:/layout_activity_principal.xml.flat",
+        "source": "com.example.proyectolomb.app-main-46:/layout/activity_principal.xml"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "com.example.proyectolomb.app-merged_res-44:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.proyectolomb.app-main-46:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "com.example.proyectolomb.app-merged_res-44:/layout_fragment_slideshow.xml.flat",
+        "source": "com.example.proyectolomb.app-main-46:/layout/fragment_slideshow.xml"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\drawable-v24_roundcornercolorbeis.xml.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\drawable-v24\\roundcornercolorbeis.xml"
+        "merged": "com.example.proyectolomb.app-merged_res-44:/drawable_side_nav_bar.xml.flat",
+        "source": "com.example.proyectolomb.app-main-46:/drawable/side_nav_bar.xml"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\layout_list_group.xml.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\list_group.xml"
+        "merged": "com.example.proyectolomb.app-merged_res-44:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.proyectolomb.app-main-46:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\drawable_settings.png.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\drawable\\settings.png"
+        "merged": "com.example.proyectolomb.app-merged_res-44:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.proyectolomb.app-main-46:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\navigation_mobile_navigation.xml.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\navigation\\mobile_navigation.xml"
+        "merged": "com.example.proyectolomb.app-merged_res-44:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.proyectolomb.app-main-46:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "com.example.proyectolomb.app-merged_res-44:/layout_fragment_nuevo_encargado.xml.flat",
+        "source": "com.example.proyectolomb.app-main-46:/layout/fragment_nuevo_encargado.xml"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\layout_list_item.xml.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\list_item.xml"
+        "merged": "com.example.proyectolomb.app-merged_res-44:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.proyectolomb.app-main-46:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\drawable_ic_menu_camera.xml.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\drawable\\ic_menu_camera.xml"
+        "merged": "com.example.proyectolomb.app-merged_res-44:/layout_fragment_listar_libros.xml.flat",
+        "source": "com.example.proyectolomb.app-main-46:/layout/fragment_listar_libros.xml"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\layout_app_bar_principal.xml.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\app_bar_principal.xml"
+        "merged": "com.example.proyectolomb.app-merged_res-44:/layout_card_view_libro.xml.flat",
+        "source": "com.example.proyectolomb.app-main-46:/layout/card_view_libro.xml"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\drawable_ic_iescomercio.png.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\drawable\\ic_iescomercio.png"
+        "merged": "com.example.proyectolomb.app-merged_res-44:/drawable_ic_menu_slideshow.xml.flat",
+        "source": "com.example.proyectolomb.app-main-46:/drawable/ic_menu_slideshow.xml"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\layout_card_view_libro.xml.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\card_view_libro.xml"
+        "merged": "com.example.proyectolomb.app-merged_res-44:/layout_content_principal.xml.flat",
+        "source": "com.example.proyectolomb.app-main-46:/layout/content_principal.xml"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\layout_fragment_nuevo_lector.xml.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\fragment_nuevo_lector.xml"
+        "merged": "com.example.proyectolomb.app-merged_res-44:/layout_fragment_nuevo_autor_persona.xml.flat",
+        "source": "com.example.proyectolomb.app-main-46:/layout/fragment_nuevo_autor_persona.xml"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\drawable_ic_menu_gallery.xml.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\drawable\\ic_menu_gallery.xml"
+        "merged": "com.example.proyectolomb.app-merged_res-44:/layout_fragment_nuevo_autor_enitdad.xml.flat",
+        "source": "com.example.proyectolomb.app-main-46:/layout/fragment_nuevo_autor_enitdad.xml"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\xml\\backup_rules.xml"
+        "merged": "com.example.proyectolomb.app-merged_res-44:/layout_fragment_gallery.xml.flat",
+        "source": "com.example.proyectolomb.app-main-46:/layout/fragment_gallery.xml"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.proyectolomb.app-merged_res-44:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.proyectolomb.app-main-46:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\menu_principal_activity.xml.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\menu\\principal_activity.xml"
+        "merged": "com.example.proyectolomb.app-merged_res-44:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.proyectolomb.app-main-46:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\layout_fragment_crear_libro.xml.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\fragment_crear_libro.xml"
+        "merged": "com.example.proyectolomb.app-merged_res-44:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.proyectolomb.app-main-46:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.proyectolomb.app-merged_res-44:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.proyectolomb.app-main-46:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\menu_activity_main_drawer.xml.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\menu\\activity_main_drawer.xml"
+        "merged": "com.example.proyectolomb.app-merged_res-44:/menu_principal_activity.xml.flat",
+        "source": "com.example.proyectolomb.app-main-46:/menu/principal_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\mipmap-xhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\mipmap-hdpi_less.png.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\mipmap-hdpi\\less.png"
-    },
-    {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\layout_fragment_nuevo_lector_alumno.xml.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\fragment_nuevo_lector_alumno.xml"
-    },
-    {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\mipmap-hdpi_more.png.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\mipmap-hdpi\\more.png"
-    },
-    {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\drawable_handover.png.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\drawable\\handover.png"
-    },
-    {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\layout_activity_principal.xml.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\activity_principal.xml"
-    },
-    {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-pngs-39:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
-    },
-    {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.proyectolomb.app-merged_res-44:/drawable-v24_roundcorner.xml.flat",
+        "source": "com.example.proyectolomb.app-main-46:/drawable-v24/roundcorner.xml"
     },
     {
         "merged": "com.example.proyectolomb.app-merged_res-44:/navigation_mobile_navigation.xml.flat",
         "source": "com.example.proyectolomb.app-main-46:/navigation/mobile_navigation.xml"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\layout_fragment_vacio.xml.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\fragment_vacio.xml"
+        "merged": "com.example.proyectolomb.app-merged_res-44:/layout_app_bar_principal.xml.flat",
+        "source": "com.example.proyectolomb.app-main-46:/layout/app_bar_principal.xml"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\layout_fragment_nuevo_encargado.xml.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\fragment_nuevo_encargado.xml"
+        "merged": "com.example.proyectolomb.app-merged_res-44:/drawable-v24_returnboooko.png.flat",
+        "source": "com.example.proyectolomb.app-main-46:/drawable-v24/returnboooko.png"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\layout_fragment_home.xml.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\fragment_home.xml"
+        "merged": "com.example.proyectolomb.app-merged_res-44:/drawable_ic_iescomercio.png.flat",
+        "source": "com.example.proyectolomb.app-main-46:/drawable/ic_iescomercio.png"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\layout_fragment_listar_libros.xml.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\fragment_listar_libros.xml"
+        "merged": "com.example.proyectolomb.app-merged_res-44:/layout_list_group.xml.flat",
+        "source": "com.example.proyectolomb.app-main-46:/layout/list_group.xml"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\xml\\data_extraction_rules.xml"
+        "merged": "com.example.proyectolomb.app-merged_res-44:/drawable_handover.png.flat",
+        "source": "com.example.proyectolomb.app-main-46:/drawable/handover.png"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\layout_fragment_inicio.xml.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\fragment_inicio.xml"
+        "merged": "com.example.proyectolomb.app-merged_res-44:/drawable_ic_menu_camera.xml.flat",
+        "source": "com.example.proyectolomb.app-main-46:/drawable/ic_menu_camera.xml"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\layout_fragment_gallery.xml.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\fragment_gallery.xml"
+        "merged": "com.example.proyectolomb.app-merged_res-44:/menu_activity_main_drawer.xml.flat",
+        "source": "com.example.proyectolomb.app-main-46:/menu/activity_main_drawer.xml"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\drawable-v24_roundcorner.xml.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\drawable-v24\\roundcorner.xml"
+        "merged": "com.example.proyectolomb.app-merged_res-44:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.proyectolomb.app-main-46:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "com.example.proyectolomb.app-merged_res-44:/layout_list_item.xml.flat",
+        "source": "com.example.proyectolomb.app-main-46:/layout/list_item.xml"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\drawable_side_nav_bar.xml.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\drawable\\side_nav_bar.xml"
+        "merged": "com.example.proyectolomb.app-merged_res-44:/layout_fragment_inicio.xml.flat",
+        "source": "com.example.proyectolomb.app-main-46:/layout/fragment_inicio.xml"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "com.example.proyectolomb.app-merged_res-44:/layout_fragment_home.xml.flat",
+        "source": "com.example.proyectolomb.app-main-46:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.example.proyectolomb.app-merged_res-44:/drawable_settings.png.flat",
+        "source": "com.example.proyectolomb.app-main-46:/drawable/settings.png"
+    },
+    {
+        "merged": "com.example.proyectolomb.app-merged_res-44:/drawable-v24_roundcornercolorbeis.xml.flat",
+        "source": "com.example.proyectolomb.app-main-46:/drawable-v24/roundcornercolorbeis.xml"
+    },
+    {
+        "merged": "com.example.proyectolomb.app-merged_res-44:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.proyectolomb.app-main-46:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.proyectolomb.app-merged_res-44:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.proyectolomb.app-main-46:/mipmap-hdpi/ic_launcher.webp"
     }
 ]
