@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.autor.nuevoAutorPersona.nuevo_autor_persona">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="100dp"
+        android:paddingHorizontal="20dp"
+        >
+
+        <RadioGroup
+            android:id="@+id/rgTipoAutorPersona"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <RadioButton
+                android:id="@+id/rbPersonaPersona"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="100dp"
+                android:text="Persona" />
+
+            <RadioButton
+                android:id="@+id/rbEntidadPersona"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="100dp"
+                android:text="Entidad" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/lblNombreAutorPersona"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre" />
+
+        <EditText
+            android:id="@+id/txtNombreAutorPersona"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:background="@color/white"
+            android:hint="Nombre del autor"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/lblFechaNacimientoAutor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fecha de nacimiento" />
+
+        <EditText
+            android:id="@+id/txtFechaNacimientoAutor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:background="@color/white"
+            android:hint="dd/mm/aa"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:id="@+id/lblPaisNacimientoAutorPersona"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="País de nacimiento" />
+
+        <EditText
+            android:id="@+id/txtPaisNacimientoAutorPersona"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:background="@color/white"
+            android:hint="País donde nació el autor"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:id="@+id/lblCategoriaAutorPersona"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Coreo electrónico" />
+
+
+        <EditText
+            android:id="@+id/txtCategoriaAutorPersona"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:background="@color/white"
+            android:hint="Cambiarlo por algo para elegir categoría"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"/>
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" />
+
+        <Button
+            android:id="@+id/btAceptar"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/btcolor"
+            android:text="Aceptar"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
+
+    </LinearLayout>
+
+</FrameLayout>

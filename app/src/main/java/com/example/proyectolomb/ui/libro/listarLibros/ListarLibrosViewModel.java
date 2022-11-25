@@ -1,4 +1,4 @@
-package com.example.proyectolomb.ui.listar_libros;
+package com.example.proyectolomb.ui.libro.listarLibros;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

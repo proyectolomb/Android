@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.inicio.inicio">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <ImageButton
+                android:id="@+id/btdaraltaimagen"
+                android:layout_width="@dimen/botonespaginaprincipal"
+                android:layout_height="@dimen/botonespaginaprincipal"
+                android:layout_marginTop="20dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/roundcornercolorbeis"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/handover" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <ImageButton
+                android:id="@+id/btdevolverimagen"
+                android:layout_width="@dimen/botonespaginaprincipal"
+                android:layout_height="@dimen/botonespaginaprincipal"
+                android:adjustViewBounds="true"
+                android:background="@drawable/roundcornercolorbeis"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/returnboooko" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <ImageButton
+                android:id="@+id/bthistorialimage"
+                android:layout_width="@dimen/botonespaginaprincipal"
+                android:layout_height="@dimen/botonespaginaprincipal"
+                android:layout_marginBottom="20dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/roundcornercolorbeis"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/book" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.lector.nuevoLectorProfesor.nuevo_lector_profesor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="100dp"
+        android:paddingHorizontal="20dp"
+        >
+
+        <TextView
+            android:id="@+id/lblNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre" />
+
+        <EditText
+            android:id="@+id/txtNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:background="@color/white"
+            android:hint="Nombre del lector"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/lblApellidos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Apellidos" />
+
+        <EditText
+            android:id="@+id/txtApellidos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:background="@color/white"
+            android:hint="Apellidos del lector"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:id="@+id/lblFecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fecha de nacimiento" />
+
+        <EditText
+            android:id="@+id/txtFecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:background="@color/white"
+            android:hint="dd/mm/aaaa"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:id="@+id/lblCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Coreo electrónico" />
+
+        <EditText
+            android:id="@+id/txtCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:background="@color/white"
+            android:hint="tu@email.com"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"/>
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" />
+
+        <RadioGroup
+            android:id="@+id/rgTipo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <RadioButton
+                android:id="@+id/rbAlumno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="100dp"
+                android:text="Alumno" />
+
+            <RadioButton
+                android:id="@+id/rbProfesor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="100dp"
+                android:text="Profesor" />
+        </RadioGroup>
+
+        <Spinner
+            android:id="@+id/spCursoDepto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/btcolorsecundario"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/btAceptar"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/btcolor"
+            android:text="Aceptar"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
+
+    </LinearLayout>
+
+</FrameLayout>

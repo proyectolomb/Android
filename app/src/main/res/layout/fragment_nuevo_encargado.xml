@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.encargado.nuevoEncargado.nuevo_encargado">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="100dp"
+        android:paddingHorizontal="20dp"
+        >
+
+        <TextView
+            android:id="@+id/lblNombreEncargado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre" />
+
+        <EditText
+            android:id="@+id/txtNombreEncargado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:background="@color/white"
+            android:hint="Nombre del encargado"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/lblPassNuevoEncargado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contraseña" />
+
+        <EditText
+            android:id="@+id/txtPassNuevoEncargado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:background="@color/white"
+            android:hint="No pongas 1234"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:id="@+id/lblPassNuevoEncargadoConfirmar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirmar contraseña" />
+
+        <EditText
+            android:id="@+id/txtPassNuevoEncargadoConfirmar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:background="@color/white"
+            android:hint="Repite la contraseña"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btAceptar"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/btcolor"
+            android:text="Aceptar"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
+
+    </LinearLayout>
+
+</FrameLayout>

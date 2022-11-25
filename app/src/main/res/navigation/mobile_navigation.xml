@@ -3,23 +3,23 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_listar_libros">
+    app:startDestination="@+id/nav_home">
 
     <fragment
         android:id="@+id/nav_home"
         android:name="com.example.proyectolomb.ui.home.HomeFragment"
-        android:label="@string/menu_home"
+        android:label="LombProyecto"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_listar_libros"
-        android:name="com.example.proyectolomb.ui.listar_libros.listar_libros"
+        android:name="com.example.proyectolomb.ui.libro.listarLibros.listar_libro"
         android:label="Listar libros"
         tools:layout="@layout/fragment_listar_libros" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.proyectolomb.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_vacio"
+        android:name="com.example.proyectolomb.ui.inicio.inicio"
+        android:label=""
+        tools:layout="@layout/fragment_inicio" />
 </navigation>

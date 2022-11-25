@@ -1,4 +1,4 @@
-package com.example.proyectolomb.ui.listar_libros;
+package com.example.proyectolomb.ui.libro.listarLibros;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -7,6 +7,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.proyectolomb.R;
@@ -27,6 +28,7 @@ public class adapterLibrosView extends RecyclerView.Adapter<adapterLibrosView.Vi
          TextView Fecha;
          Button boton;
         Button boton2;
+
         public VistaHolder(View v) {
             super(v);
             tituloCabecera= v.findViewById(R.id.presentacionTitulo);

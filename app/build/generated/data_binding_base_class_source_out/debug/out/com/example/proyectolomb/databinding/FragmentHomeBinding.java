@@ -4,37 +4,20 @@ package com.example.proyectolomb.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageButton;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
-import androidx.viewbinding.ViewBindings;
 import com.example.proyectolomb.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
-import java.lang.String;
 
 public final class FragmentHomeBinding implements ViewBinding {
   @NonNull
   private final ConstraintLayout rootView;
 
-  @NonNull
-  public final ImageButton btdaraltaimagen;
-
-  @NonNull
-  public final ImageButton btdevolverimagen;
-
-  @NonNull
-  public final ImageButton bthistorialimage;
-
-  private FragmentHomeBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ImageButton btdaraltaimagen, @NonNull ImageButton btdevolverimagen,
-      @NonNull ImageButton bthistorialimage) {
+  private FragmentHomeBinding(@NonNull ConstraintLayout rootView) {
     this.rootView = rootView;
-    this.btdaraltaimagen = btdaraltaimagen;
-    this.btdevolverimagen = btdevolverimagen;
-    this.bthistorialimage = bthistorialimage;
   }
 
   @Override
@@ -60,32 +43,10 @@ public final class FragmentHomeBinding implements ViewBinding {
 
   @NonNull
   public static FragmentHomeBinding bind(@NonNull View rootView) {
-    // The body of this method is generated in a way you would not otherwise write.
-    // This is done to optimize the compiled bytecode for size and performance.
-    int id;
-    missingId: {
-      id = R.id.btdaraltaimagen;
-      ImageButton btdaraltaimagen = ViewBindings.findChildViewById(rootView, id);
-      if (btdaraltaimagen == null) {
-        break missingId;
-      }
-
-      id = R.id.btdevolverimagen;
-      ImageButton btdevolverimagen = ViewBindings.findChildViewById(rootView, id);
-      if (btdevolverimagen == null) {
-        break missingId;
-      }
-
-      id = R.id.bthistorialimage;
-      ImageButton bthistorialimage = ViewBindings.findChildViewById(rootView, id);
-      if (bthistorialimage == null) {
-        break missingId;
-      }
-
-      return new FragmentHomeBinding((ConstraintLayout) rootView, btdaraltaimagen, btdevolverimagen,
-          bthistorialimage);
+    if (rootView == null) {
+      throw new NullPointerException("rootView");
     }
-    String missingId = rootView.getResources().getResourceName(id);
-    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
+
+    return new FragmentHomeBinding((ConstraintLayout) rootView);
   }
 }

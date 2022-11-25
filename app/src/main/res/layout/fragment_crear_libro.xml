@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.libro.crearLibro.crear_libro">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="start">
+
+            <EditText
+                android:id="@+id/txt_nuevo_libro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Nuevo libro"
+                android:textSize="@dimen/txtDrawer"
+                android:gravity="center"/>
+
+            <EditText
+                android:id="@+id/txt_ISBN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="ISBN"
+                android:textSize="@dimen/txtDrawer"/>
+
+            <EditText
+                android:id="@+id/txtbox_ISBN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="ISBN"/>
+            <EditText
+                android:id="@+id/txt_nombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Nombre"
+                android:textSize="@dimen/txtDrawer"/>
+
+            <EditText
+                android:id="@+id/txtbox_nombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="Nombre del libro"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <EditText
+                    android:id="@+id/txt_autor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Autor/es"
+                    android:textSize="@dimen/txtDrawer"/>
+
+                <ImageButton
+                    android:id="@+id/imgbtn_autor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/pencil"
+                    android:background="@color/btcolor"/>
+            </LinearLayout>
+            <EditText
+                android:id="@+id/txtbox_autor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:enabled="false"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <EditText
+                    android:id="@+id/txt_categoria"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="Categoría/s"
+                    android:textSize="@dimen/txtDrawer"/>
+
+                <ImageButton
+                    android:id="@+id/imgbtn_categoria"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/pencil"
+                    android:background="@color/btcolor"/>
+            </LinearLayout>
+            <EditText
+                android:id="@+id/txtbox_categoria"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:enabled="false"
+                />
+            <EditText
+                android:id="@+id/txt_editorial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Editorial"
+                android:textSize="@dimen/txtDrawer"/>
+
+            <EditText
+                android:id="@+id/txtbox_editorial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="Editorial del libro"/>
+            <EditText
+                android:id="@+id/txt_fecha_publi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Fecha publicación"
+                android:textSize="@dimen/txtDrawer"/>
+            <EditText
+                android:id="@+id/txtbox_fecha_publi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="Fecha de publicación"/>
+            <EditText
+                android:id="@+id/txt_idioma"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Idioma"
+                android:textSize="@dimen/txtDrawer"/>
+
+            <EditText
+                android:id="@+id/txtbox_idioma"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Español" />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

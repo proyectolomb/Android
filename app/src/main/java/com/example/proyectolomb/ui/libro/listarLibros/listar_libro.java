@@ -1,12 +1,9 @@
-package com.example.proyectolomb.ui.listar_libros;
+package com.example.proyectolomb.ui.libro.listarLibros;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.animation.Animation;
-import android.view.animation.RotateAnimation;
-import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -14,7 +11,6 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.proyectolomb.ExpandAndCollapseViewUtil;
 import com.example.proyectolomb.R;
 import com.example.proyectolomb.classes.entities.Libro;
 import com.example.proyectolomb.databinding.FragmentListarLibrosBinding;
@@ -22,7 +18,7 @@ import com.example.proyectolomb.databinding.FragmentListarLibrosBinding;
 import java.util.ArrayList;
 import java.util.Date;
 
-public class listar_libros extends Fragment {
+public class listar_libro extends Fragment {
     private FragmentListarLibrosBinding binding;
     private RecyclerView mRecyclerView;
     // esto es para mostrar lo de las listas

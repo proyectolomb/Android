@@ -1,7 +1,6 @@
 package com.example.proyectolomb;
 
 import android.os.Bundle;
-import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,13 +11,19 @@ import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
 import com.example.proyectolomb.databinding.ActivityPrincipalBinding;
-import com.example.proyectolomb.ui.listar_libros.adapterLibrosView;
+import com.example.proyectolomb.ui.home.HomeFragment;
+import com.example.proyectolomb.ui.inicio.inicio;
+import com.example.proyectolomb.ui.libro.crearLibro.crear_libro;
+import com.example.proyectolomb.ui.libro.listarLibros.listar_libro;
 import com.google.android.material.snackbar.Snackbar;
 
 import java.util.ArrayList;
@@ -34,6 +39,7 @@ public class Principal_activity extends AppCompatActivity {
     HashMap<String, List<String>> listDataChild;
     private ViewGroup linearLayoutDetails;
     private ImageView imageViewExpand;
+    private ExpandableListView expListView;
 
     private static final int DURATION = 250;
 
@@ -56,7 +62,8 @@ public class Principal_activity extends AppCompatActivity {
         });
         // Cards
         DrawerLayout drawer = binding.drawerLayout;
-        ExpandableListView expListView = binding.expandableList;
+        crearFragmento("inicio");
+        expListView = binding.expandableList;
         // Menu del navigation
         prepareListData();
         listAdapterExpandable = new ExpandableListAdapter(this, listDataHeader, listDataChild);
@@ -66,20 +73,21 @@ public class Principal_activity extends AppCompatActivity {
             expListView.collapseGroup(i);
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
-        expListView.setOnGroupClickListener(new ExpandableListView.OnGroupClickListener() {
-            @Override
-            public boolean onGroupClick(ExpandableListView expandableListView, View view, int groupPosition, long childPosition) {
-                String selectedItem=listAdapterExpandable.getChild(groupPosition,(int) childPosition).toString();
 
-                getSupportActionBar().setTitle(selectedItem);
+        expListView.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {
+            @Override
+            public boolean onChildClick(ExpandableListView expandableListView, View view, int groupPosition, int childPosition, long l) {
+                String selectedItem=listAdapterExpandable.getChild(groupPosition,(int) childPosition).toString();
+                crearFragmento(selectedItem);
+
                 return false;
             }
         });
 
-        /*mAppBarConfiguration = new AppBarConfiguration.Builder(
+        mAppBarConfiguration = new AppBarConfiguration.Builder(
                 R.id.nav_home, R.id.nav_listar_libros, R.id.nav_slideshow)
                 .setOpenableLayout(drawer)
-                .build();*/
+                .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_principal);
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         //NavigationUI.setupWithNavController(listAdapterExpandable, navController);
@@ -162,7 +170,30 @@ public class Principal_activity extends AppCompatActivity {
         animation.setDuration(DURATION);
         imageViewExpand.startAnimation(animation);
     }
-    private void inflar(String s) {
-        View v = getLayoutInflater().inflate(R.layout.fragment_listar_libros, getContentScene().getSceneRoot(), false);
+    //Lista para cambiar de fragment
+    private Fragment expandableListFragment(String s){
+        if(s.equalsIgnoreCase("listado libros")){
+            return new listar_libro();
+        }else if(s.equalsIgnoreCase("nuevo libro")){
+            return new crear_libro();
+        }else if(s.equalsIgnoreCase("inicio")){
+            return new inicio();
+        }
+        return new HomeFragment();
+    }
+    //On destroy para destruir los fragmentos al cambiar de fragmento
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        binding=null;
+    }
+    private void crearFragmento(String s) {
+        Fragment fragment = expandableListFragment(s);
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        fragmentTransaction.replace(R.id.nav_host_fragment_content_principal, fragment);
+        fragmentTransaction.addToBackStack(null);
+        fragmentTransaction.commit();
     }
 }
