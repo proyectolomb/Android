@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.google.android.material.snackbar.Snackbar;
+
 public class MainActivity extends AppCompatActivity {
     private String usuario;
     private String contrasena;
@@ -29,10 +31,13 @@ public class MainActivity extends AppCompatActivity {
 
         if (logeado) {
             startActivity(new Intent(this, Principal_activity.class));
+        }else{
+            Snackbar.make(view, "Usuario o contraseña incorrecta", Snackbar.LENGTH_LONG)
+                    .setAction("Action", null).show();
         }
     }
     private boolean comprobarCredenciales(){
-        if(usuario.equals("patricia")&&contrasena.equals("patricia")){
+        if(usuario.equalsIgnoreCase("patricia")&&contrasena.equals("patricia")){
             return true;
         }
         return false;

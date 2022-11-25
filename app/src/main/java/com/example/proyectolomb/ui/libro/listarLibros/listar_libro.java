@@ -24,6 +24,7 @@ public class listar_libro extends Fragment {
     // esto es para mostrar lo de las listas
     private adapterLibrosView adapterLibrosView;
 
+
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
 

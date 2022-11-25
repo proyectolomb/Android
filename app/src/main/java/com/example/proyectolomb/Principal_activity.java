@@ -20,6 +20,7 @@ import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
 import com.example.proyectolomb.databinding.ActivityPrincipalBinding;
+import com.example.proyectolomb.ui.encargado.nuevoEncargado.nuevo_encargado;
 import com.example.proyectolomb.ui.home.HomeFragment;
 import com.example.proyectolomb.ui.inicio.inicio;
 import com.example.proyectolomb.ui.libro.crearLibro.crear_libro;
@@ -37,11 +38,10 @@ public class Principal_activity extends AppCompatActivity {
     ExpandableListAdapter listAdapterExpandable;
     List<String> listDataHeader;
     HashMap<String, List<String>> listDataChild;
-    private ViewGroup linearLayoutDetails;
-    private ImageView imageViewExpand;
+
     private ExpandableListView expListView;
 
-    private static final int DURATION = 250;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,8 +55,7 @@ public class Principal_activity extends AppCompatActivity {
         binding.appBarPrincipal.btsettings.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                crearFragmento("encargado");
             }
 
         });
@@ -149,37 +148,19 @@ public class Principal_activity extends AppCompatActivity {
     }
 
     //Cards
-    public void toggleDetails(View view) {
-        linearLayoutDetails = findViewById(R.id.linearLayoutDetails);
-        imageViewExpand = findViewById(R.id.imageViewExpand);
-        if (linearLayoutDetails.getVisibility() == View.GONE) {
-            ExpandAndCollapseViewUtil.expand(linearLayoutDetails, DURATION);
-            imageViewExpand.setImageResource(R.mipmap.more);
-            rotate(-180.0f);
-        } else {
-            ExpandAndCollapseViewUtil.collapse(linearLayoutDetails, DURATION);
-            imageViewExpand.setImageResource(R.mipmap.less);
-            rotate(180.0f);
-        }
-    }
 
-    private void rotate(float angle) {
-        Animation animation = new RotateAnimation(0.0f, angle, Animation.RELATIVE_TO_SELF, 0.5f,
-                Animation.RELATIVE_TO_SELF, 0.5f);
-        animation.setFillAfter(true);
-        animation.setDuration(DURATION);
-        imageViewExpand.startAnimation(animation);
-    }
     //Lista para cambiar de fragment
     private Fragment expandableListFragment(String s){
         if(s.equalsIgnoreCase("listado libros")){
             return new listar_libro();
         }else if(s.equalsIgnoreCase("nuevo libro")){
             return new crear_libro();
+        }else if(s.equalsIgnoreCase("Encargado")){
+            return new nuevo_encargado();
         }else if(s.equalsIgnoreCase("inicio")){
-            return new inicio();
+                return new inicio();
         }
-        return new HomeFragment();
+        return new inicio();
     }
     //On destroy para destruir los fragmentos al cambiar de fragmento
 
