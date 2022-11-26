@@ -80,8 +80,30 @@
                         android:layout_weight="1"
                         android:text="TextView"
                         android:textAlignment="center" />
-
-
+                    <TextView
+                        android:id="@+id/contenidoAutor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5sp"
+                        android:layout_weight="1"
+                        android:text="TextView"
+                        android:textAlignment="center" />
+                    <TextView
+                        android:id="@+id/contenidoCategoria"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5sp"
+                        android:layout_weight="1"
+                        android:text="TextView"
+                        android:textAlignment="center" />
+                    <TextView
+                        android:id="@+id/contenidoEditorial"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5sp"
+                        android:layout_weight="1"
+                        android:text="TextView"
+                        android:textAlignment="center" />
                     <TextView
                         android:id="@+id/contenidoFechaPubli"
                         android:layout_width="wrap_content"
@@ -89,9 +111,16 @@
                         android:layout_weight="1"
                         android:text="TextView"
                         android:textAlignment="center" />
-
+                    <TextView
+                        android:id="@+id/contenidoIdioma"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5sp"
+                        android:layout_weight="1"
+                        android:text="TextView"
+                        android:textAlignment="center" />
                     <Button
-                        android:id="@+id/contenidoBoton"
+                        android:id="@+id/btnEliminar_item_libro"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -104,7 +133,7 @@
                         android:textSize="10sp" />
 
                     <Button
-                        android:id="@+id/contenidoBoton2"
+                        android:id="@+id/btnModificar_item_libro"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"

@@ -1,23 +1,29 @@
 package com.example.proyectolomb.ui.libro.listarLibros;
 
+import android.app.Activity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.RotateAnimation;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ExpandableListView;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.cardview.widget.CardView;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.proyectolomb.ExpandAndCollapseViewUtil;
 import com.example.proyectolomb.R;
 import com.example.proyectolomb.classes.entities.Libro;
+import com.example.proyectolomb.ui.libro.modificar_libro;
+import com.google.android.material.snackbar.Snackbar;
 
 import java.util.ArrayList;
 
@@ -28,9 +34,13 @@ public class adapterLibrosView extends RecyclerView.Adapter<adapterLibrosView.Vi
     private static final int DURATION = 250;
     private ImageView imageViewExpand;
     private ExpandableListView expListView;
-    private ArrayList<ViewGroup> lldS=new ArrayList<ViewGroup>();
-    private ArrayList<ImageView> ivs=new ArrayList<ImageView>();
-    private ArrayList<ImageButton> ibs=new ArrayList<ImageButton>();
+    private ArrayList<ViewGroup> linearlayouts =new ArrayList<ViewGroup>();
+    private ArrayList<ImageView> imageExpands =new ArrayList<ImageView>();
+    private ArrayList<ImageButton> imageBotonesExpandir =new ArrayList<ImageButton>();
+    private ArrayList<Button> botonesEliminar =new ArrayList<Button>();
+    private ArrayList<Button> botonesModificar =new ArrayList<Button>();
+
+
 
 
     // Obtener referencias de los componentes visuales para cada elemento
@@ -40,10 +50,14 @@ public class adapterLibrosView extends RecyclerView.Adapter<adapterLibrosView.Vi
         private ViewGroup linearLayoutDetails;
         private ImageView imageViewExpand;
         TextView tituloCabecera;
-         TextView ISBN;
-         TextView Fecha;
-         Button boton;
-        Button boton2;
+        TextView ISBN;
+        TextView autor;
+        TextView categoria;
+        TextView editorial;
+        TextView fecha;
+        TextView idioma;
+        Button botonEliminar;
+        Button botonModificar;
         ImageButton expandir;
 
 
@@ -51,10 +65,16 @@ public class adapterLibrosView extends RecyclerView.Adapter<adapterLibrosView.Vi
             super(v);
             tituloCabecera= v.findViewById(R.id.presentacionTitulo);
             ISBN = v.findViewById(R.id.contenidoISBN);
-            Fecha = v.findViewById(R.id.contenidoFechaPubli);
-            boton   =  v.findViewById(R.id.contenidoBoton);
-            boton2   =  v.findViewById(R.id.contenidoBoton2);
+            autor= v.findViewById(R.id.contenidoAutor);
+            categoria=v.findViewById(R.id.contenidoCategoria);
+            editorial=v.findViewById(R.id.contenidoEditorial);
+            fecha = v.findViewById(R.id.contenidoFechaPubli);
+            idioma=v.findViewById(R.id.contenidoIdioma);
+
+            botonEliminar =  v.findViewById(R.id.btnEliminar_item_libro);
+            botonModificar =  v.findViewById(R.id.btnModificar_item_libro);
             expandir=v.findViewById(R.id.imageViewExpand);
+
             linearLayoutDetails=v.findViewById(R.id.linearLayoutDetails);
             imageViewExpand=v.findViewById(R.id.imageViewExpand);
         }
@@ -89,12 +109,24 @@ public class adapterLibrosView extends RecyclerView.Adapter<adapterLibrosView.Vi
         // holder.dispositivo.setText(libro.getIdCategoria().isEmpty() ? "" :  libro.getIdCategoria());
         holder.tituloCabecera.setText(libro.getNombre().isEmpty() ? "" :  libro.getNombre());
         holder.ISBN.setText(libro.getISBN().isEmpty() ? "ISBN: "+"" :  "ISBN: "+libro.getISBN());
-        holder.Fecha.setText(libro.getFechaPublicacion().toString().isEmpty() ? "" :  libro.getFechaPublicacion().toString());
-        holder.boton.setText("Eliminar");
-        holder.boton2.setText("Modificar");
-        lldS.add(holder.linearLayoutDetails);
-        ivs.add(holder.imageViewExpand);
-        ibs.add(holder.expandir);
+        holder.autor.setText(libro.getAutor().isEmpty() ? "Autor: " :  "Autor: "+libro.getAutor());
+        holder.categoria.setText(libro.getCategoria().isEmpty() ? "Categoria: " :  "Categoria: "+libro.getCategoria());
+        holder.editorial.setText(libro.getEditorial().isEmpty() ? "Editorial: " :  "Editorial: "+libro.getEditorial());
+        holder.fecha.setText(libro.getFechaPublicacion().toString().isEmpty() ? "Fecha: " :  "Fecha: "+libro.getFechaPublicacion().toString());
+        holder.idioma.setText(libro.getIdioma().isEmpty() ? "Idioma: " :  "Idioma: "+libro.getIdioma());
+
+        holder.botonEliminar.setText("Eliminar");
+        holder.botonEliminar.setOnClickListener(this);
+        holder.botonModificar.setText("Modificar");
+        holder.botonModificar.setOnClickListener(this);
+
+
+        //Listas dinamicas
+        linearlayouts.add(holder.linearLayoutDetails);
+        imageExpands.add(holder.imageViewExpand);
+        imageBotonesExpandir.add(holder.expandir);
+        botonesEliminar.add(holder.botonEliminar);
+        botonesModificar.add(holder.botonModificar);
 
         //eventos
         holder.expandir.setOnClickListener(this);
@@ -112,10 +144,19 @@ public class adapterLibrosView extends RecyclerView.Adapter<adapterLibrosView.Vi
     }
     @Override
     public void onClick(View view) {
-        if(view.getId()==R.id.imageViewExpand){
-            toggleDetails(contarBoton(view));
+        if(view.getId()==R.id.imageViewExpand) {
+            toggleDetails(contarBotonExpandir(view));
+        }else if(view.getId()==R.id.btnEliminar_item_libro){
+            Snackbar.make(view, "Eliminar por implementar", Snackbar.LENGTH_LONG)
+                    .setAction("Action", null).show();
+        }
+        else if(view.getId()==R.id.btnModificar_item_libro){
+            Snackbar.make(view, "Modificar por implementar", Snackbar.LENGTH_LONG)
+                    .setAction("Action", null).show();
+            //crearModificarLibro(añadirElementoModificarLibros(contarBotonModificar(view)));
         }
     }
+
     // Método que define la cantidad de elementos del RecyclerView
     // Puede ser más complejo (por ejem, si implementamos filtros o búsquedas)
     @Override
@@ -124,8 +165,8 @@ public class adapterLibrosView extends RecyclerView.Adapter<adapterLibrosView.Vi
     }
 
     public void toggleDetails(int i) {
-        linearLayoutDetails=lldS.get(i);
-        imageViewExpand=ivs.get(i);
+        linearLayoutDetails= linearlayouts.get(i);
+        imageViewExpand= imageExpands.get(i);
         if (linearLayoutDetails.getVisibility() == View.GONE) {
             ExpandAndCollapseViewUtil.expand(linearLayoutDetails, DURATION);
             imageViewExpand.setImageResource(R.mipmap.more);
@@ -144,14 +185,64 @@ public class adapterLibrosView extends RecyclerView.Adapter<adapterLibrosView.Vi
         animation.setDuration(DURATION);
         imageViewExpand.startAnimation(animation);
     }
-    private int contarBoton(View view){
+    private int contarBotonExpandir(View view){
         int posicion=0;
-        for (ImageButton imageButon:ibs) {
+        for (ImageButton imageButon: imageBotonesExpandir) {
             if (imageButon==view){
                 break;
             }
             posicion++;
         }
         return posicion;
+    }
+    private int contarBotonEliminar(View view){
+        int posicion=0;
+        for (Button buton: botonesEliminar) {
+            if (buton==view){
+                break;
+            }
+            posicion++;
+        }
+        return posicion;
+    }
+    private int contarBotonModificar(View view){
+        int posicion=0;
+        for (Button buton: botonesModificar) {
+            if (buton==view){
+                break;
+            }
+            posicion++;
+        }
+        return posicion;
+    }
+    private Fragment añadirElementoModificarLibros(int i){
+        Fragment fragment=new modificar_libro();
+        View view=fragment.getView();
+        Libro libro=mDataSet.get(i);
+
+        EditText ISBN = view.findViewById(R.id.txtbox_ISBN_modificar);
+        ISBN.setText(libro.getISBN());
+        EditText titulo= view.findViewById(R.id.txtbox_nombre_modificar);
+        titulo.setText(libro.getNombre());
+        EditText autor= view.findViewById(R.id.txtbox_autor_modificar);
+        autor.setText(libro.getAutor());
+        EditText categoria=view.findViewById(R.id.txtbox_categoria_modificar);
+        categoria.setText(libro.getCategoria());
+        EditText editorial=view.findViewById(R.id.txtbox_editorial_modificar);
+        editorial.setText(libro.getEditorial());
+        EditText fecha = view.findViewById(R.id.txtbox_fecha_publi_modificar);
+        fecha.setText(libro.getFechaPublicacion().toString());
+        EditText idioma=view.findViewById(R.id.txtbox_idioma_modificar);
+        idioma.setText(libro.getIdioma());
+
+        return fragment;
+    }
+    private void crearModificarLibro(Fragment fragment) {
+
+        //FragmentManager fragmentManager = fragment.getParentFragmentManager();
+        //FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        //fragmentTransaction.replace(R.id.nav_host_fragment_content_principal, fragment);
+        //fragmentTransaction.addToBackStack(null);
+        //fragmentTransaction.commit();
     }
 }

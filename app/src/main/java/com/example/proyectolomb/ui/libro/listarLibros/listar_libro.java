@@ -57,11 +57,11 @@ public class listar_libro extends Fragment {
 
         Date hoy = new Date();
 
-        Libro libro = new Libro("1","El Quijote",hoy);
+        Libro libro = new Libro("1","El Quijote","Cervantes","caballeria","esta1",hoy,"Español");
         listaLibros.add(libro);
-         libro = new Libro("1","El principito",hoy);
+         libro = new Libro("2","El principito","El pepe","Fantasia","El mundo",hoy,"Español");
         listaLibros.add(libro);
-       libro = new Libro("1","El manifiesto comunista",hoy);
+       libro = new Libro("3","El manifiesto comunista","Carl Marx","Filosofia","Planeta",hoy,"Ruso");
         listaLibros.add(libro);
 
         adapterLibrosView = new adapterLibrosView(listaLibros);

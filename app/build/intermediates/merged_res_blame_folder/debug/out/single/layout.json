@@ -12,6 +12,10 @@
         "source": "com.example.proyectolomb.app-main-46:/layout/card_view_libro.xml"
     },
     {
+        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-mergeDebugResources-43:\\layout\\fragment_modificar_libro.xml",
+        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\fragment_modificar_libro.xml"
+    },
+    {
         "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-mergeDebugResources-43:\\layout\\fragment_nuevo_autor_persona.xml",
         "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\fragment_nuevo_autor_persona.xml"
     },

@@ -16,6 +16,10 @@
         "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\fragment_nuevo_lector_profesor.xml"
     },
     {
+        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\layout_fragment_modificar_libro.xml.flat",
+        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\fragment_modificar_libro.xml"
+    },
+    {
         "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
@@ -44,12 +48,12 @@
         "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\fragment_nuevo_autor_enitdad.xml"
     },
     {
-        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\layout_fragment_modificar_lector.xml.flat",
-        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\fragment_modificar_lector.xml"
-    },
-    {
         "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\layout_fragment_modificar_lector.xml.flat",
+        "source": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-main-46:\\layout\\fragment_modificar_lector.xml"
     },
     {
         "merged": "C:\\Users\\Faligor\\.gradle\\daemon\\7.3.3\\com.example.proyectolomb.app-merged_res-44:\\drawable_ic_menu_slideshow.xml.flat",

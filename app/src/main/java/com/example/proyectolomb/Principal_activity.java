@@ -159,6 +159,7 @@ public class Principal_activity extends AppCompatActivity {
             return new nuevo_encargado();
         }else if(s.equalsIgnoreCase("inicio")){
                 return new inicio();
+
         }
         return new inicio();
     }
